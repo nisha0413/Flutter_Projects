@@ -6,30 +6,48 @@ class screen1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Center(
-          child:Container (
-            height: 500,
-            width: 500,
-            color: Colors.amber,
-              child: Center(
-                child:Container(
-                  height: 300,
-                  width: 300,
-                  color: Colors.red,
-                  child:Center(
-                  child: Text("HELLO WORLD!" ,
-                  style: TextStyle(
-                   fontWeight:FontWeight.bold,
+        body:Container(
+          height: double.infinity,
+          color: Colors.amber,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
+                    height: 100,  
+                    width: 100,
+                    color: Colors.red,
                   ),
+                  Container(
+                    height: 100,
+                    width: 100,
+                    color: Colors.red,
                   ),
-                  ),
-                ),
+                ],
               ),
 
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
+                    height: 100,
+                    width: 100,
+                    color: Colors.red,
+                  ),
+                  Container(
+                    height: 100,
+                    width: 100,
+                    color: Colors.red,
+                  ),
+            ],
           ),
-          
-          ),
-        );
+         ],
 
+        ),          
+                  
+      )
+    );
   }
 }

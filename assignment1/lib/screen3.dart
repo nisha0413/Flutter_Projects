@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class screen2 extends StatelessWidget {
-  const screen2({super.key});
+class screen3 extends StatelessWidget {
+  const screen3({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,10 +10,10 @@ class screen2 extends StatelessWidget {
         height:double.infinity,
         color: Colors.amber,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Container(
                     height: 100,
@@ -34,7 +34,7 @@ class screen2 extends StatelessWidget {
 
             ),
             Row(
-               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Container(
                     height: 100,
@@ -63,5 +63,6 @@ class screen2 extends StatelessWidget {
 
         
         );
+ ;
   }
 }
