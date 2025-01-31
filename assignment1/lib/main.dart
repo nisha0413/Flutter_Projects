@@ -1,17 +1,17 @@
-import 'package:assignment1/screen1.dart';
+import 'package:assignment1/screen01.dart';
 import 'package:assignment1/screen10.dart';
 import 'package:assignment1/screen11.dart';
 import 'package:assignment1/screen12.dart';
 import 'package:assignment1/screen13.dart';
 import 'package:assignment1/screen14.dart';
-import 'package:assignment1/screen2.dart';
-import 'package:assignment1/screen3.dart';
-import 'package:assignment1/screen4.dart';
-import 'package:assignment1/screen5.dart';
-import 'package:assignment1/screen6.dart';
-import 'package:assignment1/screen7.dart';
-import 'package:assignment1/screen8.dart';
-import 'package:assignment1/screen9.dart';
+import 'package:assignment1/screen02.dart';
+import 'package:assignment1/screen03.dart';
+import 'package:assignment1/screen04.dart';
+import 'package:assignment1/screen05.dart';
+import 'package:assignment1/screen06.dart';
+import 'package:assignment1/screen07.dart';
+import 'package:assignment1/screen08.dart';
+import 'package:assignment1/screen09.dart';
 import 'package:flutter/material.dart';
 
 void main() {
